@@ -156,3 +156,5 @@ Email domain validation is not mailbox ownership verification. Shared demo crede
 - [Testing](docs/TESTING.md): reproducible commands and isolation.
 - [Verification](docs/VERIFICATION.md): observed results, cleanup decisions and limits.
 - [Academic report](docs/PROJECT_REPORT.md): concise report prepared for a 20–25-page layout.
+
+Final submission PDF: [Group 39 project report](docs/39_BITSolve_Project_Report.pdf).
