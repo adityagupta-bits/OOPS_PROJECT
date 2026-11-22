@@ -1,0 +1,12 @@
+*.log
+node_modules/
+target/
+dist/
+.env
+.env.*
+!.env.example
+*.local
+.idea/
+.vscode/
+tmp/
+*.dump
