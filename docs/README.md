@@ -10,7 +10,6 @@ Use the root [setup guide](../README.md) to restore and run BITSolve.
 | [Object-oriented design](object-oriented-design.md) | Implemented abstractions and patterns |
 | [API routes](api-routes.md) | Current controller route inventory |
 | [Verification](VERIFICATION.md) | Actual checks and limitations |
-| [Presentation script](Presentation-Script.pdf) | Narration guide; technical behavior is documented above |
 
 ## Diagrams
 

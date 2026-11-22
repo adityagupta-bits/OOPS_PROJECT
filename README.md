@@ -9,7 +9,6 @@ BITSolve supports Student, Technician and Administrator workflows: incident repo
 - `bits-itsm/backend`: complete Java source, Maven wrapper, tests and Flyway V1–V19.
 - `bits-itsm/frontend`: React source, frontend tests and locked npm dependencies.
 - `bits-itsm/database/submission-demo.sql`: PostgreSQL schema and anonymized demonstration data, including saved service, priority, assignment and SLA settings.
-- `docs/Presentation-Script.pdf`: approximately 22-minute walkthrough script.
 - [Technical documentation](docs/README.md): architecture, workflows, database, OOP design, API routes and five current diagrams.
 - `docs/VERIFICATION.md`: checks performed for this submission.
 
