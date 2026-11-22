@@ -1,3 +1,12 @@
+## Group 39
+
+| Name | ID |
+| --- | --- |
+| Aditya Gupta | 2025A7PS0923H |
+| Lakshya Goyal | 2025A7PS0120H |
+| Aditya Dash | 2025ADPS0218H |
+| Kush Gupta | 2025A7PS2420H |
+
 # BITSolve — Campus IT Service Management
 
 Java 25 / Spring Boot 4.1.2 / React 19 / Vite / PostgreSQL 18.
