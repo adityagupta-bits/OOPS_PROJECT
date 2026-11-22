@@ -1,0 +1,3 @@
+# Keep the database export byte-stable for its SHA-256 checksum on every OS.
+bits-itsm/database/submission-demo.sql text eol=lf
+*.pdf binary
