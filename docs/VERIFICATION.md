@@ -1,5 +1,11 @@
 # Submission verification — 22 November 2026
 
+## Documentation refresh
+
+Architecture, workflow, database and OOP documentation were checked against the current Java implementation. The API inventory contains 97 controller mappings. All five Mermaid diagrams parsed successfully and all 122 local Markdown links resolved. Frontend tests were rerun (20 passed), and the production build passed. Source edits in this refresh were verified to change comments/whitespace only; no business logic, CSS declarations, migration or database data changed. Empty legacy SQL placeholders were removed to avoid confusing them with the actual restore export.
+
+## Application packaging checks
+
 Performed on the independent submission directory, not the live deployment.
 
 | Check | Result |

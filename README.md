@@ -10,7 +10,7 @@ BITSolve supports Student, Technician and Administrator workflows: incident repo
 - `bits-itsm/frontend`: React source, frontend tests and locked npm dependencies.
 - `bits-itsm/database/submission-demo.sql`: PostgreSQL schema and anonymized demonstration data, including saved service, priority, assignment and SLA settings.
 - `docs/Presentation-Script.pdf`: approximately 22-minute walkthrough script.
-- `docs/architecture.md`: architecture reference (some historical terminology may differ from the current UI).
+- [Technical documentation](docs/README.md): architecture, workflows, database, OOP design, API routes and five current diagrams.
 - `docs/VERIFICATION.md`: checks performed for this submission.
 
 This snapshot includes the latest local source changes without importing the old repository history. Local logs, credentials, personal conversations and password-reset tokens are excluded.
@@ -80,7 +80,7 @@ Historical incident dates remain in November 2026. As real time advances, open d
 
 Automatic processing depends on enabled services with configured criticality, matching evidence, saved rules and active AVAILABLE technicians with suitable skills and capacity. Ambiguous reports or missing configuration enter exception queues. Busy/Unavailable technicians do not receive routine automatic assignments. Inspect configuration under Administrator → IT Services, Urgency & Impact Rules, Assignment Strategies (including priority configuration), and SLA Policies.
 
-The legacy `database/schema.sql` and `seed-data.sql` are empty placeholders; use `submission-demo.sql` for this submission, or let Flyway initialize a fresh database and configure it through the administrator UI.
+For a fresh installation without sample data, let Flyway initialize an empty database and configure services through the administrator UI.
 
 ## Tests
 

@@ -10,9 +10,7 @@ import MyIncidents, { IncidentSummary, incidentStatuses, readableLabel } from '.
 import NavIcon from '../components/NavIcon.jsx';
 import Badge from '../components/ui/Badge.jsx';
 import StatCard from '../components/ui/StatCard.jsx';
-//* some of the sample entries 
 import { demoIncidents as sampleIncidents, users, studentNotifications } from '../demoData.js';
-//* gives basic overview of present status of incidents 
 export default function StudentDashboard({ incidents: allIncidents = sampleIncidents, sessionUser, sessionNotice, onLogout, signingOut = false }) {
   const [page, setPage] = useState('dashboard');
   const [isMenuOpen, setIsMenuOpen] = useState(() => window.matchMedia('(min-width: 901px)').matches);

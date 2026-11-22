@@ -1,6 +1,6 @@
 :root {
   color-scheme: light;
-  /* Brand palette - BITS Pilani Enterprise ITSM Identity */
+  /* Brand colors */
   --bits-navy-950: #071527;
   --bits-navy-900: #0b1e36;
   --bits-navy-800: #102b4e;
@@ -121,9 +121,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   font-size: 14px;
 }
 
-/* ==========================================================================
-   AUTHENTICATION & PORTAL GATEWAY
-   ========================================================================== */
+/* AUTHENTICATION & PORTAL GATEWAY */
 
 .portal {
   display: grid;
@@ -601,9 +599,7 @@ form {
   margin: 24px 0 0;
 }
 
-/* ==========================================================================
-   DASHBOARD LAYOUT (STUDENT, TECHNICIAN, ADMIN)
-   ========================================================================== */
+/* DASHBOARD LAYOUT (STUDENT, TECHNICIAN, ADMIN) */
 
 .student-dashboard, .technician-portal, .admin-portal {
   display: grid;
@@ -798,9 +794,7 @@ form {
   line-height: 1.5;
 }
 
-/* ==========================================================================
-   PAGE HEADERS & HERO BANNERS
-   ========================================================================== */
+/* PAGE HEADERS & HERO BANNERS */
 
 .bits-page-header {
   display: flex;
@@ -878,9 +872,7 @@ form {
   transform: translateY(-1px);
 }
 
-/* ==========================================================================
-   METRIC / STAT CARDS
-   ========================================================================== */
+/* METRIC / STAT CARDS */
 
 .dashboard-summary {
   display: grid;
@@ -940,9 +932,7 @@ form {
   color: var(--bits-text-muted);
 }
 
-/* ==========================================================================
-   TABLES & INCIDENT LISTS
-   ========================================================================== */
+/* TABLES & INCIDENT LISTS */
 
 .dashboard-incidents, .admin-section {
   background: var(--bits-surface);
@@ -1074,9 +1064,7 @@ form {
   line-height: inherit;
 }
 
-/* ==========================================================================
-   BADGES (STATUS, PRIORITY, TONES)
-   ========================================================================== */
+/* BADGES (STATUS, PRIORITY, TONES) */
 
 .bits-badge {
   display: inline-flex;
@@ -1195,9 +1183,7 @@ form {
 .priority-p2 { color: #d97706; }
 .priority-p3, .priority-p4 { color: #0284c7; }
 
-/* ==========================================================================
-   FORMS & CAMPUS PROBLEM SELECTOR
-   ========================================================================== */
+/* FORMS & CAMPUS PROBLEM SELECTOR */
 
 .report-incident {
   width: 100%;
@@ -1330,9 +1316,7 @@ form {
   color: var(--bits-teal-hover);
 }
 
-/* ==========================================================================
-   FILTER BARS & SEARCH CONTROLS
-   ========================================================================== */
+/* FILTER BARS & SEARCH CONTROLS */
 
 .incident-filters {
   display: grid;
@@ -1372,9 +1356,7 @@ form {
   font-size: 13px;
 }
 
-/* ==========================================================================
-   MODALS, DRAWERS & DIALOGS
-   ========================================================================== */
+/* MODALS, DRAWERS & DIALOGS */
 
 .bits-modal-overlay {
   position: fixed;
@@ -1488,9 +1470,7 @@ form {
   color: var(--bits-text-primary);
 }
 
-/* ==========================================================================
-   EMPTY STATES & NOTIFICATIONS
-   ========================================================================== */
+/* EMPTY STATES & NOTIFICATIONS */
 
 .bits-empty-state {
   display: flex;
@@ -1670,9 +1650,7 @@ form {
   border-radius: 2px;
 }
 
-/* ==========================================================================
-   RESPONSIVE LAYOUTS
-   ========================================================================== */
+/* RESPONSIVE LAYOUTS */
 
 @media (max-width: 1024px) {
   .dashboard-summary {
@@ -1777,7 +1755,7 @@ form {
 @keyframes signed-in-fade { 0%, 85% { opacity: 1; } 100% { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .signed-in-toast { animation: none; } }
 
-/* Shared portal polish: keep dialogs, controls and record cards consistent. */
+/* Shared portal controls */
 .bits-modal-overlay {
   padding: clamp(12px, 3vw, 28px);
 }
@@ -1946,9 +1924,7 @@ form {
 }
 
 
-/* ==========================================================================
-   NAVIGATION GROUPING & HEADERS (Admin & Dashboard Sidebars)
-   ========================================================================== */
+/* NAVIGATION GROUPING & HEADERS (Admin & Dashboard Sidebars) */
 .nav-group-section {
   display: flex;
   flex-direction: column;
@@ -1967,9 +1943,7 @@ form {
 
 .dashboard-sidebar nav .nav-icon { display: none; }
 
-/* ==========================================================================
-   STUDENT QUICK-PICKS & CAMPUS TEMPLATES (ReportIncident)
-   ========================================================================== */
+/* STUDENT QUICK-PICKS & CAMPUS TEMPLATES (ReportIncident) */
 /* Character counters & field mark */
 .character-count {
   font-size: 12px;
@@ -1991,9 +1965,7 @@ form {
   margin-left: 2px;
 }
 
-/* ==========================================================================
-   SUBMISSION CONFIRMATION CARD (ReportIncident)
-   ========================================================================== */
+/* SUBMISSION CONFIRMATION CARD (ReportIncident) */
 .submission-result-card {
   padding: 32px 28px;
   background: #ffffff;
@@ -2057,9 +2029,7 @@ form {
   align-items: center;
 }
 
-/* ==========================================================================
-   PROFILE SECTION & DANGER ACTIONS (Student, Tech, Admin)
-   ========================================================================== */
+/* PROFILE SECTION & DANGER ACTIONS (Student, Tech, Admin) */
 .profile-container {
   max-width: 800px;
   margin: 0 auto;
@@ -2217,9 +2187,7 @@ form {
   font-size: 12px;
 }
 
-/* ==========================================================================
-   PRIORITY STRATEGY CONFIGURATION (PriorityConfiguration)
-   ========================================================================== */
+/* PRIORITY STRATEGY CONFIGURATION (PriorityConfiguration) */
 .strategy-cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -2310,9 +2278,7 @@ form {
   gap: 6px;
 }
 
-/* ==========================================================================
-   MODAL DIALOG REFINEMENTS & EYEBROWS
-   ========================================================================== */
+/* MODAL DIALOG REFINEMENTS & EYEBROWS */
 .dialog-header {
   display: flex;
   align-items: flex-start;
@@ -2385,9 +2351,7 @@ form {
   color: var(--bits-text-secondary);
 }
 
-/* ==========================================================================
-   KNOWLEDGE BASE & SUGGESTED SOLUTIONS
-   ========================================================================== */
+/* KNOWLEDGE BASE & SUGGESTED SOLUTIONS */
 .kb-article-card {
   padding: 20px 24px;
   background: #ffffff;
@@ -2459,9 +2423,7 @@ form {
   color: var(--bits-text-secondary);
 }
 
-/* ==========================================================================
-   SLA ATTENTION CALLOUT (Technician Portal)
-   ========================================================================== */
+/* SLA ATTENTION CALLOUT (Technician Portal) */
 .sla-attention-card {
   padding: 16px 20px;
   background: #fffbeb;
@@ -2735,7 +2697,7 @@ dialog.bits-modal-overlay::backdrop { background: transparent; }
 .admin-edit-actions .report-clear:hover:not(:disabled) { background: #f5f7fa; }
 .admin-edit-actions button:focus-visible { outline: 2px solid #52849b; outline-offset: 3px; }
 .admin-edit-actions button:disabled { opacity: .55; cursor: not-allowed; }
-/* Shared enterprise refinement: preserve layout and semantic state colors. */
+/* Shared control typography */
 :root { --bits-incident-text: #263449; }
 .dashboard-table-scroll table { font-size: 14px; line-height: 1.5; }
 .dashboard-table-scroll td { vertical-align: middle; }
@@ -2771,7 +2733,7 @@ dialog.bits-modal-overlay::backdrop { background: transparent; }
   .incident-details { grid-template-columns: minmax(0, 1fr); }
   .dashboard-table-scroll { overflow-x: auto; }
 }
-/* Notification inbox: one calm surface, compact rows and clear actions. */
+/* Notification inbox */
 .notifications-container { background: var(--bits-surface); border: 1px solid var(--bits-line); border-radius: 10px; padding: 24px; }
 .notifications-container .notification-inbox-header { margin-bottom: 20px; gap: 12px; }
 .notifications-container .notification-inbox-header h2 { color: var(--bits-text-secondary); font-size: 22px; font-weight: 600; letter-spacing: -.3px; }
@@ -2819,7 +2781,7 @@ dialog.bits-modal-overlay::backdrop { background: transparent; }
 .dashboard-user-area .ops-notification-shortcut svg { width: 20px; height: 20px; }
 .dashboard-user-area .ops-notification-count { top: -2px; right: -4px; min-width: 18px; height: 18px; font-size: 10px; font-weight: 600; border-color: var(--bits-surface); }
 @media (max-width: 600px) { .dashboard-topbar .dashboard-user-area { gap: 8px; } }
-/* Incident workspace: restrained hierarchy across all account roles. */
+/* Incident workspace */
 .live-incidents-page { position: relative; }
 .live-incidents-page .live-incidents-actions { margin: 0 0 12px; padding: 0; min-height: 0; }
 .live-incidents-actions .report-clear { min-height: 36px; padding: 7px 12px; border-radius: 6px; font-size: 13px; font-weight: 500; background: var(--bits-surface); }
