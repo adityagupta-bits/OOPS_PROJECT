@@ -6,7 +6,17 @@
 | Lakshya Goyal | 2025A7PS0120H |
 | Aditya Dash | 2025ADPS0218H |
 | Kush Gupta | 2025A7PS2420H |
+_____________________________________________________
 
+
+Deployed Link: https://oops-pq9n.onrender.com/ 
+
+f20250120@hyderabad.bits-pilani.ac.in 
+technician01@hyderabad.bits-pilani.ac.in 
+admin@hyderabad.bits-pilani.ac.in 
+Passwordforallaccounts:BITSOLVE9321
+
+_____________________________________________________
 # BITSolve — Campus IT Service Management
 
 Java 25 / Spring Boot 4.1.2 / React 19 / Vite / PostgreSQL 18.
@@ -77,18 +87,6 @@ Open **http://localhost:8080**. Health: **http://localhost:8080/api/health**.
 Flyway validates the restored migration history; Hibernate validates the schema. Do not run Flyway repair or edit applied migrations.
 
 For frontend development, run `npm run dev` in `bits-itsm/frontend` while the backend runs on 8080. Vite proxies `/api` to the backend.
-
-### Demonstration login accounts
-
-All accounts in this **anonymized export only** use password **`SubmissionDemo2026!`**:
-
-| Role | Email |
-|---|---|
-| Administrator | `demo.admin1@hyderabad.bits-pilani.ac.in` |
-| Student | `demo.student2@hyderabad.bits-pilani.ac.in` |
-| Technician | `demo.technician6@hyderabad.bits-pilani.ac.in` |
-
-Select the corresponding role on the login form. Other demo usernames follow `demo.<role><id>@hyderabad.bits-pilani.ac.in`; inspect Manage Users for the full list. Passwords in the original database were not changed. These shared demonstration credentials must never be used for a public deployment.
 
 ## Database and demonstration notes
 
